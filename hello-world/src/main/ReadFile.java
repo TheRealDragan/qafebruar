@@ -8,9 +8,9 @@ import java.util.List;
 
 public class ReadFile {
 	  public static void main(String[] args) {
-		  System.out.println("Pozivam metodu koja pravi pauzu od n sekundi");
+		  System.out.println("Pozivam metodu koja pravi pauzu od deset sekundi");
 		  checkedExceptionDemo();
-		  System.out.println("Izasao sam iz metode koja pravi pauzu od n sekundi");
+		  System.out.println("Izasao sam iz metode koja pravi pauzu od deset sekundi");
 		  List<QaPolaznik> polaznici = new ArrayList<QaPolaznik>();
 		      try (BufferedReader br = new BufferedReader(
 		         new FileReader("students.txt"))) { 
