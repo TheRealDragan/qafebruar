@@ -14,6 +14,9 @@ public class RemoveNumbersLargerThanNFromAList {
 		input.add(11);
 		input.add(10);
 		input.add(15);
+		input.add(44);
+		input.add(12);
+		input.add(15);
 		
 		removeNumbersLargerThanN(input, 11);
 		
